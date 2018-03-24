@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+
+	<title>Easy Stock</title>
+
+	<link rel="shortcut icon" href="https://juliobguedes.github.io/images/gt_favicon.png">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	<link rel="stylesheet" href="https://juliobguedes.github.io/css/styles.css">
+
+	
+
+    
+        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=123456789012345678901234&product=inline-share-buttons"></script>
+    
+
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="https://juliobguedes.github.io/images/Me1.jpg" alt="">
+			<span class="title">Júlio Barreto</span>
+			<span class="tagline">CS Graduation student<br>
+				<a href="">julio.costa@ccc.ufcg.edu.br</a>
+            </span>
+		</h1>
+	</div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+                <li>
+                    <a href="/post/">blog</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+</header>
+
+
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+ 							<span class="posted-on"><time class="entry-date published" date="2018-03-22 19:49:26 -0300 -03">March 22, 2018</time></span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://juliobguedes.github.io/post/easystock/" rel="bookmark">Easy Stock</a></h1>
+					</header>
+					<div class="entry-content">
+						<p>Easy Stock is a web application developed in Angular.js, Spring-boot and PostgreSQL. The application was made as a part of the Informational Systems class, taught by <a href="http://www.dsc.ufcg.edu.br/~spg/Mongiovi/Home.html">Melina Mongiovi</a>.</p>
+
+<p>During the class, we learned code patterns and, in the end of the class, we had to develop (and fix) a project given by Melina. The project had 13 main user stories and 3 aditional user stories:</p>
+
+<p>Main user stories:</p>
+
+<ol>
+<li>As an admin, I would like to have the system persisting all the data;</li>
+<li>As an admin, I would like to login in the system to have access to all the admin funcionalities;</li>
+<li>As an admin, I would like to access the system through a link;</li>
+<li>I, as a client, would like to consult the disponibility and price of each product of the supermarket without the need of being logged in;</li>
+<li>As an admin, I would like to order the products and the record of sales according to their important information (i.e. name, price, etc);</li>
+<li>As an admin, I would like to set up discounts to the product categories, in a way that the costumer receives it in the end of the buying process. The discount categories are: 0% (no discount), 10% (good), 25% (great) and 50% (super);</li>
+<li>As an admin, I would like to see a general report of the supermarket, with the products and their data (quantity, number of packs, expiration date, etc), sales record and profit;</li>
+<li>As an admin, I would like to see the product marked as unavailable if it has zero items or if its expired. Also, if its unavailable, the system doesn&rsquo;t show its price and the product is added, if its expired, should be added to the list of expired products;</li>
+<li>As an admin, I would like to register a sale of a product, recording the value of the purchase. The product quantity must be decremented;</li>
+<li>As an admin, I would like to cancel a sale of a product, deleting the record of the sale. The product quantity must be incremented;</li>
+<li>As an admin, I would like to receive notifications in the home screen warning if a product is under 15 units;</li>
+<li>As an admin, I would like to receive notifications in the home screen warning if a product is about to expire (1 month or less);</li>
+</ol>
+
+<p>Aditional user stories:</p>
+
+<ol>
+<li>As a client, I would like to sign up to access the system;</li>
+<li>As a client, I would like to log in to access the client funcionalities;</li>
+<li>As a client, I would like to bookmark my shopping list in the system, so my purchases would be collected and packaged in advance.</li>
+</ol>
+
+<p>We made a group then, with me, <a href="https://github.com/IannCarvalho">Iann</a>, <a href="https://github/docinho">Livia</a> and <a href="https://github.com/marcusvlc">Marcus</a>. Initially, the system didn&rsquo;t follow almost any code patterns, and we had to fix and put the correct patterns in the code (both front and back). After that, we started implementing the new features (given in the user stories above) and our group subdivided in 2 lesser groups: Livia and Marcus in the backend, me and Iann in the frontend.</p>
+
+<p>We started by refactoring the whole project to have less imports in each controller and separating the angular controllers. After that, the implementation of services to hold the http requests, passed to the controllers in promise chaining. After that, we reimplemented the whole system to work only in one language (previously portuguese and english mixed up): english.</p>
+
+<p>The result code can be found in <a href="https://github.com/docinho/projetosi">Livia&rsquo;s repository</a> with our contributions.</p>
+
+					</div>
+				</article>
+
+			</div>
+		</div> 
+
+        <div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+                    
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+                    
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>&#43;55 83 99655-2372<br>
+						<a href="mailto:julio.costa@ccc.ufcg.edu.br">julio.costa@ccc.ufcg.edu.br</a><br>
+						<br>
+						
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+                        
+                            
+                                <a href="https://www.facebook.com/juliobgc" target="_blank"><i class="fa fa-facebook-square fa-2"></i></a>
+                            
+                        
+                            
+                                <a href="https://twitter.com/juliobguedes" target="_blank"><i class="fa fa-twitter-square fa-2"></i></a>
+                            
+                        
+                            
+                                <a href="https://www.instagram.com/juliobguedes" target="_blank"><i class="fa fa-instagram fa-2"></i></a>
+                            
+                        
+                            
+                        
+                            
+                                <a href="https://www.linkedin.com/in/juliobguedes" target="_blank"><i class="fa fa-linkedin-square fa-2"></i></a>
+                            
+                        
+                            
+                        
+                            
+                                <a href="https://github.com/juliobguedes" target="_blank"><i class="fa fa-github fa-2"></i></a>
+                            
+                        
+                            
+                        
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p></p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2018, Júlio Barreto<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+                    </p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://juliobguedes.github.io/js/template.js"></script>
+<script id="dsq-count-scr" src="///count.js" async></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

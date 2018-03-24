@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://juliobguedes.github.io/post/tormenta-spellbook/</loc>
+    <lastmod>2018-03-22T19:49:39-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/post/musichub/</loc>
+    <lastmod>2018-03-22T19:49:34-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/post/easystock/</loc>
+    <lastmod>2018-03-22T19:49:26-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/post/libratizar/</loc>
+    <lastmod>2018-03-22T19:49:20-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/post/datavis1/</loc>
+    <lastmod>2018-03-21T10:55:34-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/</loc>
+    <lastmod>2018-03-22T19:49:39-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/post/</loc>
+    <lastmod>2018-03-22T19:49:39-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Júlio&#39;s Page</title>
+    <link>https://juliobguedes.github.io/post/</link>
+    <description>Recent content in Posts on Júlio&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Mar 2018 19:49:39 -0300</lastBuildDate>
+    
+	<atom:link href="https://juliobguedes.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tormenta Spellbook</title>
+      <link>https://juliobguedes.github.io/post/tormenta-spellbook/</link>
+      <pubDate>Thu, 22 Mar 2018 19:49:39 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/post/tormenta-spellbook/</guid>
+      <description>Tormenta is a brazilian RPG based on D&amp;amp;D (Open Game License was a bless) very similar to D&amp;amp;D3.5 but with a totally different and new scene. The spells and feats are very similar, having a few differences in the mechanics and rules.
+  As a RPG player and master, a great part of the time playing was devoted to search stuff in the books during the game. In TormentaRPG, we have a lot of them, and had even more in D&amp;amp;D.</description>
+    </item>
+    
+    <item>
+      <title>MusicHub</title>
+      <link>https://juliobguedes.github.io/post/musichub/</link>
+      <pubDate>Thu, 22 Mar 2018 19:49:34 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/post/musichub/</guid>
+      <description>Easy Stock is a web application developed in Angular.js. The application was made as a part of the Informational Systems class, taught by Melina Mongiovi.
+Main user stories:
+ As an user, I would like to add an artist to the system. In a text box, the user can add the artist info and add him to the system.  The artist name is required, but its image is optional; Two different artists can not have the same name;  As an user, I would like to add a song to the system.</description>
+    </item>
+    
+    <item>
+      <title>Easy Stock</title>
+      <link>https://juliobguedes.github.io/post/easystock/</link>
+      <pubDate>Thu, 22 Mar 2018 19:49:26 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/post/easystock/</guid>
+      <description>Easy Stock is a web application developed in Angular.js, Spring-boot and PostgreSQL. The application was made as a part of the Informational Systems class, taught by Melina Mongiovi.
+During the class, we learned code patterns and, in the end of the class, we had to develop (and fix) a project given by Melina. The project had 13 main user stories and 3 aditional user stories:
+Main user stories:
+ As an admin, I would like to have the system persisting all the data; As an admin, I would like to login in the system to have access to all the admin funcionalities; As an admin, I would like to access the system through a link; I, as a client, would like to consult the disponibility and price of each product of the supermarket without the need of being logged in; As an admin, I would like to order the products and the record of sales according to their important information (i.</description>
+    </item>
+    
+    <item>
+      <title>Libratizar</title>
+      <link>https://juliobguedes.github.io/post/libratizar/</link>
+      <pubDate>Thu, 22 Mar 2018 19:49:20 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/post/libratizar/</guid>
+      <description>Libratizar is a Startup from Campina Grande with focus in inclusive education. Our main proposal is that education should be to everyone.
+The Libratizar started in Campina Grande in the 14th FETECh, organized by the Parque Tecnológico/PB (PaqTecPB) and the Incubadora Tecnológica de Campina Grande (ITCG), during the 1st FETECh Hackathon. I made my subscription to the event with 2 other friends, Renan and Mariana, but the teams were drawn in the beginning of the competition, revealed with the theme.</description>
+    </item>
+    
+    <item>
+      <title>Data Visualizations</title>
+      <link>https://juliobguedes.github.io/post/datavis1/</link>
+      <pubDate>Wed, 21 Mar 2018 10:55:34 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/post/datavis1/</guid>
+      <description>Hey everyone!
+My data visualization page was created using Hugo to host a series of visualizations made in d3.js and Vega Lite, a d3 compiler. All of them were made in the DataVis class @ UFCG, taught by Nazareno Andrade, with the purpose to learn d3.js, the tecniques and theory about visualizations.
+In each post, I&amp;rsquo;ll present the same guide made by Nazareno that lead me to create the visualizations. I a few of them I made use of Python to modify the original data.</description>
+    </item>
+    
+  </channel>
+</rss>
